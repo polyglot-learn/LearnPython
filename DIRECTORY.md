@@ -2,7 +2,7 @@
 
 Every `.py` file in this repo, grouped by category. Any file can be run with `python3 <path>`.
 
-_202 runnable samples across 30 directories._
+_239 runnable samples across 37 directories._
 
 ## advanced
 - [argparse_cli](advanced/argparse_cli.py)
@@ -18,6 +18,7 @@ _202 runnable samples across 30 directories._
 - [decimal_and_precision](advanced/decimal_and_precision.py)
 - [descriptors](advanced/descriptors.py)
 - [dynamic_imports](advanced/dynamic_imports.py)
+- [enum_state_machines](advanced/enum_state_machines.py)
 - [exception_chaining](advanced/exception_chaining.py)
 - [functools_toolkit](advanced/functools_toolkit.py)
 - [futures_concurrency](advanced/futures_concurrency.py)
@@ -25,6 +26,7 @@ _202 runnable samples across 30 directories._
 - [gil_threads_processes](advanced/gil_threads_processes.py)
 - [hashing_and_secrets](advanced/hashing_and_secrets.py)
 - [introspection_and_reflection](advanced/introspection_and_reflection.py)
+- [lazy_evaluation_pipelines](advanced/lazy_evaluation_pipelines.py)
 - [logging_setup](advanced/logging_setup.py)
 - [memoryview_and_buffers](advanced/memoryview_and_buffers.py)
 - [metaclasses](advanced/metaclasses.py)
@@ -35,6 +37,7 @@ _202 runnable samples across 30 directories._
 - [slots_and_memory](advanced/slots_and_memory.py)
 - [sqlite_basics](advanced/sqlite_basics.py)
 - [string_internals](advanced/string_internals.py)
+- [subprocess_and_processes](advanced/subprocess_and_processes.py)
 - [testing_with_unittest](advanced/testing_with_unittest.py)
 - [thread_synchronisation](advanced/thread_synchronisation.py)
 - [typing_generics](advanced/typing_generics.py)
@@ -153,6 +156,19 @@ _202 runnable samples across 30 directories._
 - [vigenere_cipher](ciphers/vigenere_cipher.py)
 - [xor_cipher](ciphers/xor_cipher.py)
 
+## compression
+- [delta_and_varint](compression/delta_and_varint.py)
+- [huffman_codec](compression/huffman_codec.py)
+- [lz77](compression/lz77.py)
+- [lzw](compression/lzw.py)
+
+## concurrency
+- [circuit_breaker](concurrency/circuit_breaker.py)
+- [producer_consumer_pipeline](concurrency/producer_consumer_pipeline.py)
+- [rate_limiter_token_bucket](concurrency/rate_limiter_token_bucket.py)
+- [retry_with_backoff](concurrency/retry_with_backoff.py)
+- [worker_pool_threads](concurrency/worker_pool_threads.py)
+
 ## data_structures
 - [avl_tree](data_structures/avl_tree.py)
 - [binary_search_tree](data_structures/binary_search_tree.py)
@@ -168,6 +184,13 @@ _202 runnable samples across 30 directories._
 - [segment_tree](data_structures/segment_tree.py)
 - [stack_and_queue](data_structures/stack_and_queue.py)
 - [trie](data_structures/trie.py)
+
+## distributed
+- [consistent_hashing](distributed/consistent_hashing.py)
+- [crdt_counters_and_sets](distributed/crdt_counters_and_sets.py)
+- [raft_leader_election](distributed/raft_leader_election.py)
+- [two_phase_commit](distributed/two_phase_commit.py)
+- [vector_clocks](distributed/vector_clocks.py)
 
 ## dynamic_programming
 - [climbing_stairs](dynamic_programming/climbing_stairs.py)
@@ -205,6 +228,13 @@ _202 runnable samples across 30 directories._
 - [interval_scheduling_rooms](greedy/interval_scheduling_rooms.py)
 - [jump_game](greedy/jump_game.py)
 
+## machine_learning
+- [decision_tree](machine_learning/decision_tree.py)
+- [k_means](machine_learning/k_means.py)
+- [knn_classifier](machine_learning/knn_classifier.py)
+- [linear_regression](machine_learning/linear_regression.py)
+- [logistic_regression](machine_learning/logistic_regression.py)
+
 ## maths
 - [base_conversion](maths/base_conversion.py)
 - [collatz_sequence](maths/collatz_sequence.py)
@@ -223,8 +253,29 @@ _202 runnable samples across 30 directories._
 - [modular_arithmetic](number_theory/modular_arithmetic.py)
 - [pollard_rho](number_theory/pollard_rho.py)
 
+## parsers
+- [json_parser](parsers/json_parser.py)
+- [recursive_descent_expr](parsers/recursive_descent_expr.py)
+- [shunting_yard](parsers/shunting_yard.py)
+- [tokenizer](parsers/tokenizer.py)
+
 ## probabilistic
+- [count_min_sketch](probabilistic/count_min_sketch.py)
+- [hyperloglog](probabilistic/hyperloglog.py)
+- [minhash](probabilistic/minhash.py)
+- [monte_carlo_estimation](probabilistic/monte_carlo_estimation.py)
 - [reservoir_sampling](probabilistic/reservoir_sampling.py)
+
+## project_euler
+- [problem_001_multiples_of_3_or_5](project_euler/problem_001_multiples_of_3_or_5.py)
+- [problem_002_even_fibonacci](project_euler/problem_002_even_fibonacci.py)
+- [problem_003_largest_prime_factor](project_euler/problem_003_largest_prime_factor.py)
+- [problem_014_longest_collatz](project_euler/problem_014_longest_collatz.py)
+
+## puzzles
+- [fizzbuzz_variations](puzzles/fizzbuzz_variations.py)
+- [game_of_life](puzzles/game_of_life.py)
+- [water_jug_and_bfs_puzzles](puzzles/water_jug_and_bfs_puzzles.py)
 
 ## recursion
 - [ackermann](recursion/ackermann.py)
