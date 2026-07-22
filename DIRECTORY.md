@@ -2,6 +2,61 @@
 
 Every `.py` file in this repo, grouped by category. Any file can be run with `python3 <path>`.
 
+_202 runnable samples across 30 directories._
+
+## advanced
+- [argparse_cli](advanced/argparse_cli.py)
+- [asyncio_patterns](advanced/asyncio_patterns.py)
+- [bytecode_and_dis](advanced/bytecode_and_dis.py)
+- [class_decorators_and_mixins](advanced/class_decorators_and_mixins.py)
+- [collections_module](advanced/collections_module.py)
+- [contextvars_and_state](advanced/contextvars_and_state.py)
+- [copy_protocols](advanced/copy_protocols.py)
+- [csv_data_processing](advanced/csv_data_processing.py)
+- [dataclass_patterns](advanced/dataclass_patterns.py)
+- [datetime_and_timezones](advanced/datetime_and_timezones.py)
+- [decimal_and_precision](advanced/decimal_and_precision.py)
+- [descriptors](advanced/descriptors.py)
+- [dynamic_imports](advanced/dynamic_imports.py)
+- [exception_chaining](advanced/exception_chaining.py)
+- [functools_toolkit](advanced/functools_toolkit.py)
+- [futures_concurrency](advanced/futures_concurrency.py)
+- [generators_as_coroutines](advanced/generators_as_coroutines.py)
+- [gil_threads_processes](advanced/gil_threads_processes.py)
+- [hashing_and_secrets](advanced/hashing_and_secrets.py)
+- [introspection_and_reflection](advanced/introspection_and_reflection.py)
+- [logging_setup](advanced/logging_setup.py)
+- [memoryview_and_buffers](advanced/memoryview_and_buffers.py)
+- [metaclasses](advanced/metaclasses.py)
+- [operator_and_dispatch](advanced/operator_and_dispatch.py)
+- [pickle_and_serialisation](advanced/pickle_and_serialisation.py)
+- [profiling_and_benchmarking](advanced/profiling_and_benchmarking.py)
+- [regular_expressions](advanced/regular_expressions.py)
+- [slots_and_memory](advanced/slots_and_memory.py)
+- [sqlite_basics](advanced/sqlite_basics.py)
+- [string_internals](advanced/string_internals.py)
+- [testing_with_unittest](advanced/testing_with_unittest.py)
+- [thread_synchronisation](advanced/thread_synchronisation.py)
+- [typing_generics](advanced/typing_generics.py)
+- [weakrefs_and_gc](advanced/weakrefs_and_gc.py)
+
+## arrays
+- [dutch_national_flag](arrays/dutch_national_flag.py)
+- [majority_element](arrays/majority_element.py)
+- [merge_intervals](arrays/merge_intervals.py)
+- [move_zeroes](arrays/move_zeroes.py)
+- [prefix_sums](arrays/prefix_sums.py)
+- [rotate_array](arrays/rotate_array.py)
+- [sliding_window_maximum](arrays/sliding_window_maximum.py)
+- [two_sum](arrays/two_sum.py)
+
+## backtracking
+- [n_queens](backtracking/n_queens.py)
+- [permutations_with_constraints](backtracking/permutations_with_constraints.py)
+- [subset_sum](backtracking/subset_sum.py)
+- [sudoku_solver](backtracking/sudoku_solver.py)
+- [word_search_grid](backtracking/word_search_grid.py)
+
 ## basics/00_hello_world
 - [hello_world](basics/00_hello_world/hello_world.py)
 
@@ -84,4 +139,130 @@ Every `.py` file in this repo, grouped by category. Any file can be run with `py
 - [files_and_pathlib](basics/12_modules_io/files_and_pathlib.py)
 - [json_io](basics/12_modules_io/json_io.py)
 - [modules_and_imports](basics/12_modules_io/modules_and_imports.py)
+
+## bit_manipulation
+- [bit_basics](bit_manipulation/bit_basics.py)
+- [count_set_bits](bit_manipulation/count_set_bits.py)
+- [power_of_two](bit_manipulation/power_of_two.py)
+- [single_number_xor](bit_manipulation/single_number_xor.py)
+- [subsets_via_bitmask](bit_manipulation/subsets_via_bitmask.py)
+- [swap_and_toggle](bit_manipulation/swap_and_toggle.py)
+
+## ciphers
+- [caesar_cipher](ciphers/caesar_cipher.py)
+- [vigenere_cipher](ciphers/vigenere_cipher.py)
+- [xor_cipher](ciphers/xor_cipher.py)
+
+## data_structures
+- [avl_tree](data_structures/avl_tree.py)
+- [binary_search_tree](data_structures/binary_search_tree.py)
+- [bloom_filter](data_structures/bloom_filter.py)
+- [circular_buffer](data_structures/circular_buffer.py)
+- [disjoint_set](data_structures/disjoint_set.py)
+- [fenwick_tree](data_structures/fenwick_tree.py)
+- [graph_representations](data_structures/graph_representations.py)
+- [hash_table](data_structures/hash_table.py)
+- [linked_list](data_structures/linked_list.py)
+- [lru_cache](data_structures/lru_cache.py)
+- [min_heap](data_structures/min_heap.py)
+- [segment_tree](data_structures/segment_tree.py)
+- [stack_and_queue](data_structures/stack_and_queue.py)
+- [trie](data_structures/trie.py)
+
+## dynamic_programming
+- [climbing_stairs](dynamic_programming/climbing_stairs.py)
+- [coin_change](dynamic_programming/coin_change.py)
+- [edit_distance](dynamic_programming/edit_distance.py)
+- [fibonacci_dp](dynamic_programming/fibonacci_dp.py)
+- [kadane_max_subarray](dynamic_programming/kadane_max_subarray.py)
+- [knapsack_01](dynamic_programming/knapsack_01.py)
+- [longest_common_subsequence](dynamic_programming/longest_common_subsequence.py)
+- [longest_increasing_subsequence](dynamic_programming/longest_increasing_subsequence.py)
+- [matrix_chain_multiplication](dynamic_programming/matrix_chain_multiplication.py)
+- [word_break](dynamic_programming/word_break.py)
+
+## geometry
+- [convex_hull_graham](geometry/convex_hull_graham.py)
+- [line_and_segment_intersection](geometry/line_and_segment_intersection.py)
+- [point_and_vector_basics](geometry/point_and_vector_basics.py)
+- [polygon_area](geometry/polygon_area.py)
+
+## graphs
+- [a_star](graphs/a_star.py)
+- [bellman_ford](graphs/bellman_ford.py)
+- [bfs](graphs/bfs.py)
+- [dfs](graphs/dfs.py)
+- [dijkstra](graphs/dijkstra.py)
+- [floyd_warshall](graphs/floyd_warshall.py)
+- [kruskal_mst](graphs/kruskal_mst.py)
+- [prim_mst](graphs/prim_mst.py)
+- [topological_sort](graphs/topological_sort.py)
+
+## greedy
+- [activity_selection](greedy/activity_selection.py)
+- [fractional_knapsack](greedy/fractional_knapsack.py)
+- [huffman_encoding](greedy/huffman_encoding.py)
+- [interval_scheduling_rooms](greedy/interval_scheduling_rooms.py)
+- [jump_game](greedy/jump_game.py)
+
+## maths
+- [base_conversion](maths/base_conversion.py)
+- [collatz_sequence](maths/collatz_sequence.py)
+- [factorial_and_combinations](maths/factorial_and_combinations.py)
+- [fast_exponentiation](maths/fast_exponentiation.py)
+- [gcd_and_lcm](maths/gcd_and_lcm.py)
+- [integer_square_root](maths/integer_square_root.py)
+- [is_prime](maths/is_prime.py)
+- [sieve_of_eratosthenes](maths/sieve_of_eratosthenes.py)
+
+## number_theory
+- [chinese_remainder](number_theory/chinese_remainder.py)
+- [euler_totient](number_theory/euler_totient.py)
+- [extended_euclidean](number_theory/extended_euclidean.py)
+- [miller_rabin](number_theory/miller_rabin.py)
+- [modular_arithmetic](number_theory/modular_arithmetic.py)
+- [pollard_rho](number_theory/pollard_rho.py)
+
+## probabilistic
+- [reservoir_sampling](probabilistic/reservoir_sampling.py)
+
+## recursion
+- [ackermann](recursion/ackermann.py)
+- [combinations_and_subsets](recursion/combinations_and_subsets.py)
+- [flatten_nested](recursion/flatten_nested.py)
+- [permutations](recursion/permutations.py)
+- [recursion_limits_and_tail_calls](recursion/recursion_limits_and_tail_calls.py)
+- [tower_of_hanoi](recursion/tower_of_hanoi.py)
+
+## searches
+- [binary_search](searches/binary_search.py)
+- [binary_search_recursive](searches/binary_search_recursive.py)
+- [exponential_search](searches/exponential_search.py)
+- [interpolation_search](searches/interpolation_search.py)
+- [jump_search](searches/jump_search.py)
+- [linear_search](searches/linear_search.py)
+- [ternary_search](searches/ternary_search.py)
+
+## sorts
+- [bubble_sort](sorts/bubble_sort.py)
+- [bucket_sort](sorts/bucket_sort.py)
+- [counting_sort](sorts/counting_sort.py)
+- [heap_sort](sorts/heap_sort.py)
+- [insertion_sort](sorts/insertion_sort.py)
+- [merge_sort](sorts/merge_sort.py)
+- [quick_sort](sorts/quick_sort.py)
+- [radix_sort](sorts/radix_sort.py)
+- [selection_sort](sorts/selection_sort.py)
+- [shell_sort](sorts/shell_sort.py)
+- [timsort_runs](sorts/timsort_runs.py)
+
+## strings
+- [is_anagram](strings/is_anagram.py)
+- [is_palindrome](strings/is_palindrome.py)
+- [kmp_search](strings/kmp_search.py)
+- [longest_substring_without_repeat](strings/longest_substring_without_repeat.py)
+- [manacher](strings/manacher.py)
+- [rabin_karp](strings/rabin_karp.py)
+- [run_length_encoding](strings/run_length_encoding.py)
+- [valid_parentheses](strings/valid_parentheses.py)
 
