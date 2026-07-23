@@ -2,7 +2,7 @@
 
 Every `.py` file in this repo, grouped by category. Any file can be run with `python3 <path>`.
 
-_270 runnable samples across 37 directories._
+_296 runnable samples across 39 directories._
 
 ## advanced
 - [argparse_cli](advanced/argparse_cli.py)
@@ -157,17 +157,34 @@ _270 runnable samples across 37 directories._
 - [xor_cipher](ciphers/xor_cipher.py)
 
 ## compression
+- [burrows_wheeler](compression/burrows_wheeler.py)
 - [delta_and_varint](compression/delta_and_varint.py)
 - [huffman_codec](compression/huffman_codec.py)
 - [lz77](compression/lz77.py)
 - [lzw](compression/lzw.py)
 
 ## concurrency
+- [actor_model](concurrency/actor_model.py)
+- [barrier_and_phaser](concurrency/barrier_and_phaser.py)
 - [circuit_breaker](concurrency/circuit_breaker.py)
+- [deadlock_and_ordering](concurrency/deadlock_and_ordering.py)
+- [future_and_promise](concurrency/future_and_promise.py)
 - [producer_consumer_pipeline](concurrency/producer_consumer_pipeline.py)
 - [rate_limiter_token_bucket](concurrency/rate_limiter_token_bucket.py)
+- [read_write_lock](concurrency/read_write_lock.py)
 - [retry_with_backoff](concurrency/retry_with_backoff.py)
+- [software_transactional_memory](concurrency/software_transactional_memory.py)
 - [worker_pool_threads](concurrency/worker_pool_threads.py)
+
+## crypto
+- [aes_sbox](crypto/aes_sbox.py)
+- [diffie_hellman](crypto/diffie_hellman.py)
+- [elgamal](crypto/elgamal.py)
+- [elliptic_curve_points](crypto/elliptic_curve_points.py)
+- [hmac_from_scratch](crypto/hmac_from_scratch.py)
+- [merkle_tree](crypto/merkle_tree.py)
+- [rsa_from_scratch](crypto/rsa_from_scratch.py)
+- [shamir_secret_sharing](crypto/shamir_secret_sharing.py)
 
 ## data_structures
 - [avl_tree](data_structures/avl_tree.py)
@@ -202,6 +219,7 @@ _270 runnable samples across 37 directories._
 - [climbing_stairs](dynamic_programming/climbing_stairs.py)
 - [coin_change](dynamic_programming/coin_change.py)
 - [convex_hull_trick](dynamic_programming/convex_hull_trick.py)
+- [digit_dp](dynamic_programming/digit_dp.py)
 - [edit_distance](dynamic_programming/edit_distance.py)
 - [fibonacci_dp](dynamic_programming/fibonacci_dp.py)
 - [kadane_max_subarray](dynamic_programming/kadane_max_subarray.py)
@@ -233,10 +251,12 @@ _270 runnable samples across 37 directories._
 - [dijkstra](graphs/dijkstra.py)
 - [dinic_max_flow](graphs/dinic_max_flow.py)
 - [edmonds_karp_max_flow](graphs/edmonds_karp_max_flow.py)
+- [eulerian_path_hierholzer](graphs/eulerian_path_hierholzer.py)
 - [floyd_warshall](graphs/floyd_warshall.py)
 - [hopcroft_karp_matching](graphs/hopcroft_karp_matching.py)
 - [kosaraju_scc](graphs/kosaraju_scc.py)
 - [kruskal_mst](graphs/kruskal_mst.py)
+- [lca_binary_lifting](graphs/lca_binary_lifting.py)
 - [prim_mst](graphs/prim_mst.py)
 - [tarjan_scc](graphs/tarjan_scc.py)
 - [topological_sort](graphs/topological_sort.py)
@@ -276,6 +296,16 @@ _270 runnable samples across 37 directories._
 - [modular_arithmetic](number_theory/modular_arithmetic.py)
 - [pollard_rho](number_theory/pollard_rho.py)
 - [tonelli_shanks](number_theory/tonelli_shanks.py)
+
+## numeric
+- [bisection_and_brent](numeric/bisection_and_brent.py)
+- [gaussian_elimination_solve](numeric/gaussian_elimination_solve.py)
+- [gradient_descent](numeric/gradient_descent.py)
+- [lu_decomposition](numeric/lu_decomposition.py)
+- [newton_raphson](numeric/newton_raphson.py)
+- [numerical_integration](numeric/numerical_integration.py)
+- [runge_kutta_ode](numeric/runge_kutta_ode.py)
+- [simplex_lp](numeric/simplex_lp.py)
 
 ## parsers
 - [json_parser](parsers/json_parser.py)
