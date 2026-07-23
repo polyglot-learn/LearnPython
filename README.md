@@ -7,7 +7,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Style: PEP 8](https://img.shields.io/badge/style-PEP%208-blue.svg)](https://peps.python.org/pep-0008/)
 
-Companion to [LearnDart](https://github.com/thejesh23/LearnDart), inspired by [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python). Every file in this repository is a self-contained lesson: you can open it, read it top-to-bottom, and run it with a single command.
+Companion to [LearnDart](https://github.com/polyglot-learn/LearnDart), inspired by [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python). Every file in this repository is a self-contained lesson: you can open it, read it top-to-bottom, and run it with a single command.
 
 ---
 
@@ -50,7 +50,7 @@ Most language tutorials fall into one of two traps: they either bury you in feat
 2. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/thejesh23/LearnPython.git
+   git clone https://github.com/polyglot-learn/LearnPython.git
    cd LearnPython
    ```
 
@@ -160,7 +160,7 @@ Full details in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Roadmap
 
-More samples land in later sessions. Planned expansions mirror [LearnDart](https://github.com/thejesh23/LearnDart): the full `basics/` path first, then sorts, searches, data structures, graphs, DP, and the advanced categories (crypto, compression, distributed, probabilistic).
+More samples land in later sessions. Planned expansions mirror [LearnDart](https://github.com/polyglot-learn/LearnDart): the full `basics/` path first, then sorts, searches, data structures, graphs, DP, and the advanced categories (crypto, compression, distributed, probabilistic).
 
 ## Contributing
 
@@ -173,7 +173,7 @@ New samples are always welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) f
 
 ## Inspiration
 
-- [LearnDart](https://github.com/thejesh23/LearnDart) — the sibling repository this one mirrors.
+- [LearnDart](https://github.com/polyglot-learn/LearnDart) — the sibling repository this one mirrors.
 - [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) — the model for the algorithm categories.
 - [docs.python.org/3/tutorial](https://docs.python.org/3/tutorial/) — canonical reference for every language feature covered in `basics/`.
 
