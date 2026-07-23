@@ -2,7 +2,7 @@
 
 Every `.py` file in this repo, grouped by category. Any file can be run with `python3 <path>`.
 
-_296 runnable samples across 39 directories._
+_318 runnable samples across 39 directories._
 
 ## advanced
 - [argparse_cli](advanced/argparse_cli.py)
@@ -30,6 +30,7 @@ _296 runnable samples across 39 directories._
 - [logging_setup](advanced/logging_setup.py)
 - [memoryview_and_buffers](advanced/memoryview_and_buffers.py)
 - [metaclasses](advanced/metaclasses.py)
+- [mini_event_loop](advanced/mini_event_loop.py)
 - [operator_and_dispatch](advanced/operator_and_dispatch.py)
 - [pickle_and_serialisation](advanced/pickle_and_serialisation.py)
 - [profiling_and_benchmarking](advanced/profiling_and_benchmarking.py)
@@ -157,6 +158,7 @@ _296 runnable samples across 39 directories._
 - [xor_cipher](ciphers/xor_cipher.py)
 
 ## compression
+- [arithmetic_coding](compression/arithmetic_coding.py)
 - [burrows_wheeler](compression/burrows_wheeler.py)
 - [delta_and_varint](compression/delta_and_varint.py)
 - [huffman_codec](compression/huffman_codec.py)
@@ -178,12 +180,15 @@ _296 runnable samples across 39 directories._
 
 ## crypto
 - [aes_sbox](crypto/aes_sbox.py)
+- [commitment_scheme](crypto/commitment_scheme.py)
 - [diffie_hellman](crypto/diffie_hellman.py)
 - [elgamal](crypto/elgamal.py)
 - [elliptic_curve_points](crypto/elliptic_curve_points.py)
 - [hmac_from_scratch](crypto/hmac_from_scratch.py)
 - [merkle_tree](crypto/merkle_tree.py)
 - [rsa_from_scratch](crypto/rsa_from_scratch.py)
+- [schnorr_signature](crypto/schnorr_signature.py)
+- [sha256_from_scratch](crypto/sha256_from_scratch.py)
 - [shamir_secret_sharing](crypto/shamir_secret_sharing.py)
 
 ## data_structures
@@ -247,19 +252,26 @@ _296 runnable samples across 39 directories._
 - [articulation_points_bridges](graphs/articulation_points_bridges.py)
 - [bellman_ford](graphs/bellman_ford.py)
 - [bfs](graphs/bfs.py)
+- [bipartite_check_and_coloring](graphs/bipartite_check_and_coloring.py)
 - [dfs](graphs/dfs.py)
 - [dijkstra](graphs/dijkstra.py)
 - [dinic_max_flow](graphs/dinic_max_flow.py)
 - [edmonds_karp_max_flow](graphs/edmonds_karp_max_flow.py)
 - [eulerian_path_hierholzer](graphs/eulerian_path_hierholzer.py)
 - [floyd_warshall](graphs/floyd_warshall.py)
+- [heavy_light_decomposition](graphs/heavy_light_decomposition.py)
 - [hopcroft_karp_matching](graphs/hopcroft_karp_matching.py)
+- [johnson_all_pairs](graphs/johnson_all_pairs.py)
 - [kosaraju_scc](graphs/kosaraju_scc.py)
 - [kruskal_mst](graphs/kruskal_mst.py)
 - [lca_binary_lifting](graphs/lca_binary_lifting.py)
+- [min_cost_max_flow](graphs/min_cost_max_flow.py)
 - [prim_mst](graphs/prim_mst.py)
+- [strongly_connected_condensation](graphs/strongly_connected_condensation.py)
 - [tarjan_scc](graphs/tarjan_scc.py)
 - [topological_sort](graphs/topological_sort.py)
+- [topological_sort_lexicographic](graphs/topological_sort_lexicographic.py)
+- [two_sat](graphs/two_sat.py)
 
 ## greedy
 - [activity_selection](greedy/activity_selection.py)
@@ -270,10 +282,14 @@ _296 runnable samples across 39 directories._
 
 ## machine_learning
 - [decision_tree](machine_learning/decision_tree.py)
+- [gradient_boosting_stumps](machine_learning/gradient_boosting_stumps.py)
 - [k_means](machine_learning/k_means.py)
 - [knn_classifier](machine_learning/knn_classifier.py)
 - [linear_regression](machine_learning/linear_regression.py)
 - [logistic_regression](machine_learning/logistic_regression.py)
+- [naive_bayes](machine_learning/naive_bayes.py)
+- [neural_net_backprop](machine_learning/neural_net_backprop.py)
+- [pca](machine_learning/pca.py)
 
 ## maths
 - [base_conversion](maths/base_conversion.py)
@@ -298,12 +314,17 @@ _296 runnable samples across 39 directories._
 - [tonelli_shanks](number_theory/tonelli_shanks.py)
 
 ## numeric
+- [automatic_differentiation](numeric/automatic_differentiation.py)
 - [bisection_and_brent](numeric/bisection_and_brent.py)
+- [cubic_spline_interpolation](numeric/cubic_spline_interpolation.py)
+- [fft_convolution](numeric/fft_convolution.py)
 - [gaussian_elimination_solve](numeric/gaussian_elimination_solve.py)
 - [gradient_descent](numeric/gradient_descent.py)
 - [lu_decomposition](numeric/lu_decomposition.py)
 - [newton_raphson](numeric/newton_raphson.py)
 - [numerical_integration](numeric/numerical_integration.py)
+- [power_iteration_eigenvalues](numeric/power_iteration_eigenvalues.py)
+- [qr_decomposition](numeric/qr_decomposition.py)
 - [runge_kutta_ode](numeric/runge_kutta_ode.py)
 - [simplex_lp](numeric/simplex_lp.py)
 
@@ -311,6 +332,7 @@ _296 runnable samples across 39 directories._
 - [json_parser](parsers/json_parser.py)
 - [recursive_descent_expr](parsers/recursive_descent_expr.py)
 - [shunting_yard](parsers/shunting_yard.py)
+- [stack_vm](parsers/stack_vm.py)
 - [tokenizer](parsers/tokenizer.py)
 
 ## probabilistic
