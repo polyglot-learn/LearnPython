@@ -3,7 +3,7 @@
 Every `.py` file in this repo, grouped by category. Any file can be run with `python3 <path>`.
 Packages (folders with a `__main__.py`) are run with `python3 -m <dotted.path>`.
 
-_318 runnable samples across 39 directories._
+_319 runnable samples across 39 directories._
 
 ## advanced
 - [argparse_cli](advanced/argparse_cli.py)
@@ -382,6 +382,7 @@ _318 runnable samples across 39 directories._
 - [radix_sort](sorts/radix_sort.py)
 - [selection_sort](sorts/selection_sort.py)
 - [shell_sort](sorts/shell_sort.py)
+- [sort_kit](sorts/sort_kit/) (package)
 - [timsort_runs](sorts/timsort_runs.py)
 
 ## strings
