@@ -1,6 +1,7 @@
 # Directory
 
 Every `.py` file in this repo, grouped by category. Any file can be run with `python3 <path>`.
+Packages (folders with a `__main__.py`) are run with `python3 -m <dotted.path>`.
 
 _318 runnable samples across 39 directories._
 
@@ -399,4 +400,3 @@ _318 runnable samples across 39 directories._
 - [valid_parentheses](strings/valid_parentheses.py)
 - [wildcard_and_regex_matching](strings/wildcard_and_regex_matching.py)
 - [z_algorithm](strings/z_algorithm.py)
-
