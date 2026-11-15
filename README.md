@@ -2,7 +2,7 @@
 
 > A hands-on collection of small, runnable Python programs — from your first `Hello, world!` to classic algorithms — written for two audiences at once.
 
-[![Python](https://img.shields.io/badge/Python-%5E3.10-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Python](https://img.shields.io/badge/Python-%5E3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Style: PEP 8](https://img.shields.io/badge/style-PEP%208-blue.svg)](https://peps.python.org/pep-0008/)
@@ -46,7 +46,7 @@ Most language tutorials fall into one of two traps: they either bury you in feat
 
 ## Quick start
 
-1. **Install Python** — see [python.org/downloads](https://www.python.org/downloads/). Any CPython `3.10` or newer works.
+1. **Install Python** — see [python.org/downloads](https://www.python.org/downloads/). Any CPython `3.12` or newer works (CI runs 3.12 and 3.13).
 2. **Clone the repo:**
 
    ```bash

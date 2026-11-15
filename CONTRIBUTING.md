@@ -7,7 +7,7 @@ Thanks for helping grow the collection. This repo follows a few simple conventio
 1. **One concept per file.** If a topic can be split into two independent pieces, make two files.
 2. **Every file is runnable.** Include a `main()` function guarded by `if __name__ == "__main__":` that demonstrates the code. A reader should be able to `python3 <path>` any file in the repo and see output.
 3. **`basics/` files include teaching comments.** Explain *what* the code does and *why*, in plain English, for a first-time learner. Algorithm files stay clean — comment only when the *why* is non-obvious.
-4. **Modern Python (3.10+).** Use type hints, f-strings, `match` statements, `dataclass`, and built-in generics (`list[int]`, not `List[int]`) where they make the code clearer.
+4. **Modern Python (3.12+).** Use type hints, f-strings, `match` statements, `dataclass`, and built-in generics (`list[int]`, not `List[int]`) where they make the code clearer.
 5. **No dependencies.** Every sample runs against the standard library alone. If a sample truly needs a package, open an issue first.
 
 ## Commit and PR conventions
