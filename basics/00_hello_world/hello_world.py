@@ -12,6 +12,12 @@ file and reuse its functions elsewhere.
 
 def main() -> None:
     print("Hello, world!")
+    name = input("请输入你的姓名：")
+    age = input("请输入你的年龄：")
+    welcome_message = f"欢迎你，{name}！你今年{age}岁，祝你学习 Python 愉快！"
+    print(f"姓名：{name}")
+    print(f"年龄：{age}")
+    print(welcome_message)
 
 
 if __name__ == "__main__":
