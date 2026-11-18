@@ -1,8 +1,9 @@
 # Directory
 
 Every `.py` file in this repo, grouped by category. Any file can be run with `python3 <path>`.
+Packages (folders with a `__main__.py`) are run with `python3 -m <dotted.path>`.
 
-_318 runnable samples across 39 directories._
+_323 runnable samples across 39 directories._
 
 ## advanced
 - [argparse_cli](advanced/argparse_cli.py)
@@ -197,6 +198,7 @@ _318 runnable samples across 39 directories._
 - [bloom_filter](data_structures/bloom_filter.py)
 - [circular_buffer](data_structures/circular_buffer.py)
 - [disjoint_set](data_structures/disjoint_set.py)
+- [ds_kit](data_structures/ds_kit/) (package)
 - [fenwick_tree](data_structures/fenwick_tree.py)
 - [fenwick_tree_2d](data_structures/fenwick_tree_2d.py)
 - [graph_representations](data_structures/graph_representations.py)
@@ -225,6 +227,7 @@ _318 runnable samples across 39 directories._
 - [coin_change](dynamic_programming/coin_change.py)
 - [convex_hull_trick](dynamic_programming/convex_hull_trick.py)
 - [digit_dp](dynamic_programming/digit_dp.py)
+- [dp_kit](dynamic_programming/dp_kit/) (package)
 - [edit_distance](dynamic_programming/edit_distance.py)
 - [fibonacci_dp](dynamic_programming/fibonacci_dp.py)
 - [kadane_max_subarray](dynamic_programming/kadane_max_subarray.py)
@@ -259,6 +262,7 @@ _318 runnable samples across 39 directories._
 - [edmonds_karp_max_flow](graphs/edmonds_karp_max_flow.py)
 - [eulerian_path_hierholzer](graphs/eulerian_path_hierholzer.py)
 - [floyd_warshall](graphs/floyd_warshall.py)
+- [graph_kit](graphs/graph_kit/) (package)
 - [heavy_light_decomposition](graphs/heavy_light_decomposition.py)
 - [hopcroft_karp_matching](graphs/hopcroft_karp_matching.py)
 - [johnson_all_pairs](graphs/johnson_all_pairs.py)
@@ -368,6 +372,7 @@ _318 runnable samples across 39 directories._
 - [interpolation_search](searches/interpolation_search.py)
 - [jump_search](searches/jump_search.py)
 - [linear_search](searches/linear_search.py)
+- [search_kit](searches/search_kit/) (package)
 - [ternary_search](searches/ternary_search.py)
 
 ## sorts
@@ -381,6 +386,7 @@ _318 runnable samples across 39 directories._
 - [radix_sort](sorts/radix_sort.py)
 - [selection_sort](sorts/selection_sort.py)
 - [shell_sort](sorts/shell_sort.py)
+- [sort_kit](sorts/sort_kit/) (package)
 - [timsort_runs](sorts/timsort_runs.py)
 
 ## strings
@@ -399,4 +405,3 @@ _318 runnable samples across 39 directories._
 - [valid_parentheses](strings/valid_parentheses.py)
 - [wildcard_and_regex_matching](strings/wildcard_and_regex_matching.py)
 - [z_algorithm](strings/z_algorithm.py)
-
