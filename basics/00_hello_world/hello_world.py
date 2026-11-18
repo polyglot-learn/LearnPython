@@ -18,6 +18,8 @@ def main() -> None:
     print(f"姓名：{name}")
     print(f"年龄：{age}")
     print(welcome_message)
+    print("祝你学习 Python 愉快！")
+
 
 
 if __name__ == "__main__":
